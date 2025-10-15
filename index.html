@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Convolution</title>
+</head>
+<body>
+	<div style="width: 100vw" class="flex-row">
+		<div>
+			<h2>Originale</h2>
+			<canvas width="720" height="480" id="canvas1">
+				<img id="img1" src="img/myImg.jpg" alt="test">
+			</canvas>
+		</div>
+		<div>
+			<h2>Processed</h2>
+			<canvas width="720" height="480" id="canvas2"></canvas>
+		</div>
+	</div>
+	<div id="pixel-color-container" style="margin-top: 30px;" class="flex-column bg-glass w-250 p-10 justify-space-evenly">
+		<h2>Save color</h2>
+		<div id="color-container"></div>
+	</div>
+	<div id="mouseTrack">
+		<div id="mouseTrackColor"></div>
+		<div id="mouseTrackRGB"></div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
