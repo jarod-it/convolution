@@ -13,11 +13,12 @@ Le projet inclut également un sélecteur de couleur (color picker) permettant d
 
 Clone le projet :
 
-git clone [https://github.com/TON_UTILISATEUR/convolution.git]
+git clone [https://github.com/jarod-it/convolution.git]
+
 cd convolution
 
 # 🧑‍💻 Auteur
 
 - 👤 Jarod Rossini
 - 📫 rossini.jarod@gmail.com
-- 🌐 github.com/TON_UTILISATEUR
+- 🌐 www.linkedin.com/in/jarod-rossini
